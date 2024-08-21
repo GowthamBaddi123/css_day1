@@ -1,0 +1,35 @@
+
+
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background:grey;
+    gap:15px;
+    text-align: center;
+}
+
+
+  .card{
+    height: 200px;
+    width: 200px;
+    border-radius:50%;
+    display: flex;
+    box-shadow:0 0 100px rgb(212, 60, 60);
+    transition: 1s;
+    display: inline-block;
+  }
+  .card img {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    object-fit:cover;
+  }
+  .card:not(:hover) {
+    filter: grayscale(100%);
+  }
+  .card:hover {
+    transform: scale(1.05);
+  }

@@ -1,0 +1,46 @@
+body{
+    height: 40vh;
+}
+
+
+
+
+
+.margin{
+    margin: 200px;
+    padding: 30px;
+    background-color: aqua;
+    border-color:black;
+    border-width: 3px;
+    border-style: dashed;
+    
+
+}
+
+.border{
+    margin: 50px 20px;
+    padding: 30px;
+    background-color: darkblue;
+    border-color:black;
+    border-width: 3px;
+    border-style: solid;
+}
+
+.padding{
+    margin: 50px 20px;
+    padding: 30px;
+    background-color: cornflowerblue;
+    border-color:black;
+    border-width: 3px;
+    border-style: dashed;
+}
+
+.div{
+    
+    border-width: 3px;
+    padding: 30px;
+    background-color: rgb(230, 186, 84);
+    border-color:black; 
+    border-style: solid;
+    text-align: center;
+} 
